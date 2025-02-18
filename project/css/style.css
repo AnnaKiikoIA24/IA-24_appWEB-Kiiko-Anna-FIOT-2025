@@ -1,0 +1,46 @@
+#idBrand {
+  color: 436020;
+  font-weight: bold;
+}
+
+.logo {
+    border-radius: 25px;
+    padding-right: 5px;
+}
+
+#carouselExampleIndicators span {
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .btn-group {
+    width: 100%;
+    margin: 10px;
+  }
+
+  #carouselExampleIndicators img {
+    width: 100%; 
+  }
+
+}
+
+@media (min-width: 800px) {
+  #carouselExampleIndicators img {
+    width: 100%; 
+    height: 490px;
+  }
+}
